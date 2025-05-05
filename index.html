@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container01">
+        <header id="header" class="header">
+            <div class="header__container"> 
+                <ul class="header__list">
+                    <section class="header__logo">
+                        <li><img src="./images/Icon-01.png"></li>
+                        <div>CARLOS</div>
+                    </section>
+
+                    <section class="header__menu">
+                        <div class="header__icon">
+                            <img src="./images/list_icon.png" alt="list icon">
+                        </div>
+                        <ul class="header__button">
+                            <li><a href= "#quien-soy">¿Quién soy?</a></li>
+                            <li><a href= "#servicios">Servicios</a></li>
+                            <li><a href= "#escribe">Escríbeme</a></li>
+                        </ul>
+                    </section>
+                </ul>
+            </div>
+        </header>
+        <section class="bienvenida-container">
+            <div class="bienvenida__text">
+                <div class="bienvenida__text__txt">
+                    <h1>Bienvenidos a mi site</h1>
+                </div>
+                <div class="bienvenida__text__img">
+                    <img src="./images/Photo-of-me.png" alt="Carlos">
+                </div>
+                
+            </div>
+        </section>
+
+    </div>
+    <div id="quien-soy" class="container01 black" >
+        <section class = "quien-soy">
+            <div class = "quien-soy__img-wrapper">
+                <img class = "quien-soy__img" src="./images/Check-mark-01.png">
+            </div>
+            <div class = "quien-soy_text">
+                <h2>Carlos</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi repudiandae alias, molestias vitae commodi dolorem, ex ipsa quidem sunt mollitia debitis repellat quibusdam delectus similique, atque sapiente quae nisi perspiciatis.</p>
+            </div>
+    </div>
+    <div id="servicios" class="container01">
+        <section class = "servicios">
+            <h2>Mis Servicios</h2>
+            
+            <div class = "servicios__container">
+                <div class = "servicios__container__servicios">
+                    <img src="./images/Computer-01.png">
+                    <h3>Hago Cosas</h3>
+                    <p>Algo interesante sobre mí: Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem accusamus quam magnam provident, sequi, omnis natus deserunt nulla laudantium adipisci sed explicabo, ipsa fuga eligendi ut quas at suscipit?</p>
+                </div>
+                <div class = "servicios__container__servicios">
+                    <img src="./images/Computer-01.png">
+                    <h3>Y más cosas</h3>
+                    <p>Algo interesante sobre mí: Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem accusamus quam magnam provident, sequi, omnis natus deserunt nulla laudantium adipisci sed explicabo, ipsa fuga eligendi ut quas at suscipit?</p>
+                </div>
+                <div class = "servicios__container__servicios">
+                    <img src="./images/Computer-01.png">
+                    <h3>Y también otras cosas</h3>
+                    <p>Algo interesante sobre mí: Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem accusamus quam magnam provident, sequi, omnis natus deserunt nulla laudantium adipisci sed explicabo, ipsa fuga eligendi ut quas at suscipit?</p>
+                </div>
+
+            </div>
+            
+
+        </section>
+
+    </div>
+    <div id="escribe" class="container01 black">
+        <section class="escribe">
+            <div class="escribe__title__wrapper">
+                <h2>Escríbeme</h2>                
+            </div>
+            <div class="escribe__form__wrapper">
+                <form action="/submit" method="post" class="escribe__form__wrapper__form">
+                    <label for="name">NOMBRE</label>
+                    <input type="text" id="name" name="name" required placeholder="Compártenos tu nombre">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required placeholder="No olvides tu email!">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" required placeholder="Nos encanta escuchar tus opiniones!"></textarea>
+                    <button type="submit" class="escribe__form__wrapper__form__button">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <div class="container01">
+        <footer class="footer">
+            <div class="footer__container">
+                <ul class="footer__list">
+                    <section class="footer__logo">
+                        <a href="#header">
+                            <li><img src="./images/Icon-01.png"></li>
+                            <div>CARLOS</div>
+                        </a>
+                    </section>
+                    <section class="footer__button">
+                        <li><a href= "https://www.instagram.com/carlitonios/"><img src="./images/instagram.png">instagram</a></li>
+                        <li><a href= "https://www.linkedin.com/in/carlos-rodriguez-32b153b8/"><img src="./images/linkedIn.png">LinkedIn</a></li>
+                        <li><a href= "https://github.com/carlitonios"><img src="./images/github.png">GitHub</a></li>                        
+                    </section>
+                </ul>
+
+            </div>
+
+        </footer>
+    </div>
+    
+</body>
+</html>
